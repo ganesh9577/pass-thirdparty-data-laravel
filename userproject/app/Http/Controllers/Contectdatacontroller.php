@@ -17,6 +17,6 @@ class Contectdatacontroller extends Controller
             'city' => $req->city,
             'area' => $req->area,
         ]);
-        return $datas;
+        return "data save successfully";
     }
 }
